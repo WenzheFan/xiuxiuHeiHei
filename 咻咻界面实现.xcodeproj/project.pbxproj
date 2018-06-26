@@ -54,6 +54,7 @@
 		183CE18220E225A300647425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183CE18E20E225E000647425 /* XiuXiuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiuXiuView.h; sourceTree = "<group>"; };
 		183CE18F20E225E000647425 /* XiuXiuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiuXiuView.m; sourceTree = "<group>"; };
+		183CE19120E238A900647425 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		183CE15020E225A200647425 = {
 			isa = PBXGroup;
 			children = (
+				183CE19120E238A900647425 /* README.md */,
 				183CE15B20E225A200647425 /* 咻咻界面实现 */,
 				183CE17420E225A300647425 /* 咻咻界面实现Tests */,
 				183CE17F20E225A300647425 /* 咻咻界面实现UITests */,
