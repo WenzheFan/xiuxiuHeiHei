@@ -15,6 +15,7 @@
 		183CE16C20E225A300647425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CE16B20E225A300647425 /* main.m */; };
 		183CE17620E225A300647425 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CE17520E225A300647425 /* ______Tests.m */; };
 		183CE18120E225A300647425 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CE18020E225A300647425 /* ______UITests.m */; };
+		183CE19020E225E000647425 /* XiuXiuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CE18F20E225E000647425 /* XiuXiuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		183CE17C20E225A300647425 /* 咻咻界面实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "咻咻界面实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CE18020E225A300647425 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		183CE18220E225A300647425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183CE18E20E225E000647425 /* XiuXiuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiuXiuView.h; sourceTree = "<group>"; };
+		183CE18F20E225E000647425 /* XiuXiuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiuXiuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				183CE15D20E225A200647425 /* AppDelegate.m */,
 				183CE15F20E225A200647425 /* ViewController.h */,
 				183CE16020E225A200647425 /* ViewController.m */,
+				183CE18E20E225E000647425 /* XiuXiuView.h */,
+				183CE18F20E225E000647425 /* XiuXiuView.m */,
 				183CE16220E225A200647425 /* Main.storyboard */,
 				183CE16520E225A300647425 /* Assets.xcassets */,
 				183CE16720E225A300647425 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				183CE16120E225A200647425 /* ViewController.m in Sources */,
 				183CE16C20E225A300647425 /* main.m in Sources */,
+				183CE19020E225E000647425 /* XiuXiuView.m in Sources */,
 				183CE15E20E225A200647425 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

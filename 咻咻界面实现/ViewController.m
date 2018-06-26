@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XiuXiuView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    XiuXiuView *xiuxiu = [[XiuXiuView alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
+    
+    [self.view addSubview:xiuxiu];
+    
+    [xiuxiu setText:@"嘿嘿" withTextColor:[UIColor redColor]];
+    
+    
+     XiuXiuView *xiuxiu2 = [[XiuXiuView alloc]initWithFrame:CGRectMake(100, 400, 200, 200)];
+    
+    [self.view addSubview:xiuxiu2];
+    
+    xiuxiu2.buttonType = DDFlashButtonOuter;
+    
+    [xiuxiu2 setText:@"呵呵" withTextColor: [UIColor yellowColor]];
 }
 
 
